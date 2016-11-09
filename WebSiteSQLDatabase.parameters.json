@@ -1,0 +1,24 @@
+﻿{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "administratorLogin": {
+            "value": "youngr6"
+        },
+        "skuName": {
+            "value": "S1"
+        },
+        "administratorLoginPassword": {
+            "value": "[sqlpassword]"
+        },
+        "environment": {
+            "value": "tst"
+        },
+        "clientSecret": {
+            "value": "[clientsecret]"
+        },
+        "clientId": {
+            "value": "[clientid]"
+        }
+    }
+}
