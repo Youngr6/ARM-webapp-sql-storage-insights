@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": { "emitEntryPoint": true },
+  "dependencies": {
+    "CSAPReporting.Models": "1.0.0-*",
+    "Microsoft.EntityFrameworkCore": "1.1.0-preview1-final",
+    "Microsoft.EntityFrameworkCore.Design": "1.1.0-preview1-final",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.1.0-preview1-final",
+    "WindowsAzure.Storage": "7.2.1"
+  },
+  "tools": {
+    "Microsoft.EntityFrameworkCore.Tools": {
+      "version": "1.0.0-preview3-final",
+      "imports": [
+        "portable-net45+win8+dnxcore50",
+        "portable-net45+win8"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools.DotNet": "1.0.0-preview3-final"
+  },
+  "frameworks": {
+    "net461": {}
+  }
+}
